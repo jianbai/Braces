@@ -1,0 +1,97 @@
+/** Fonts
+--------------------------------------------- **/
+
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+
+/** Main styles
+--------------------------------------------- **/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+  font: 100%/1.5 'Old Standard TT', serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #FFFFFF;
+  background-color: #4E5952;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.container {
+	width: 80vw;
+	margin: auto;
+	padding: 40px;
+	font-size: 1rem;
+}
+
+@media (min-width: 50rem) {
+	.container {
+		width: 70vw;
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 70rem) {
+	.container {
+		width: 60vw;
+		font-size: 1.4rem;
+	}
+}
+
+/** Content
+--------------------------------------------- **/
+
+.title {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2rem;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#input {
+	width: 100%;
+	color: #333333;
+	margin: 20px 0;
+	padding: 10px 0 10px 10px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+.play {
+	text-align: center;
+}
+
+.win {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+}
+
+@media (min-width: 50rem) {
+	.title, .win {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 70rem) {
+	.title, .win {
+		font-size: 4rem;
+	}
+}
